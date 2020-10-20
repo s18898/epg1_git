@@ -1,0 +1,8 @@
+git clone https://github.com/s18898/epg1_git.git
+cd C:\\Users\\Oleksii\\Desktop\\PJATK\\epg\\zadanie2\\epg1_git
+git branch hw-s18898
+git checkout rebase-me
+git rebase hw-s18898
+git checkout hw-s18898
+git merge rebase-me
+git merge origin/merge-me
